@@ -29,14 +29,13 @@ Ensure that the GPS subsystem components, including the M10Q-5883 GNSS GPS & Com
 ## CAD models
 ## Electrical Schematics
 
-# Analysis
+# Analysis 
 
 # Software Consideration - Possible/Probable Software Solutions
 
 # BOM
-| Name of Items |  Description               | Used in which subsystem(s) | Part Number     | Manufacturer | Quantity | Price | Total |
-| ---           |     ---                    |          ---               |      ---        |     ---      |    ---   |  ---  |  ---  |
-| GPS           | fast acquisition           |  GPS subsystem             | M10Q-5883 GNSS  |              |          |       |       |
-                  and exceptional sensitivity  
-|               |                            |  GPS subsystem             |                 |              |          |       |       |
-|               |                            |                            |                 |              |          |       |       |
+| Name of Items |  Description        | Used in which subsystem(s) | Part Number     | Manufacturer   | Quantity | Price     | Total |
+| ---           |     ---             |          ---               |      ---        |     ---        |    ---   |  ---      |  ---  |
+| GPS           |GPS & Compass Module |  GPS subsystem             | M10Q-5883 GNSS  | rotorriot      |    1     |39.99$     |39.99$ |
+| Arduino Nano  |ATmega328            |  GPS subsystem             | A000005         | Arduino        |    1     |24.90$     |24.90$ |
+|               |                     |                            |                 |Total Components|    2     |Total Cost |64.89$ |
