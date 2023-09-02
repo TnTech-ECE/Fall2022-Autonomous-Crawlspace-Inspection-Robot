@@ -36,24 +36,27 @@ Third constraint that we need to considered is environmental constraints. Enviro
 ## Analysis (1): 
 To analyze the impact of limited sky visibility on GPS signal acquisition and accuracy, we can consider the concept of signal-to-noise ratio (SNR). SNR is a crucial parameter that affects the quality of the received GPS signals. A higher SNR indicates a stronger and more reliable signal, while a lower SNR can result in signal degradation and potential inaccuracies. In an environment with limited sky visibility, the presence of obstacles  can obstruct the line of sight between the GPS module and the satellites. This obstruction can lead to weaker GPS signals and reduced SNR. the Log-normal Shadowing Model, which takes into account the distance between the GPS module and the obstacles.
 
-/n
+<br>
 
 The Log-normal Shadowing: P_r = P_t - PL - X
-where:
-P_r is the received power of the GPS signal,
-P_t is the transmitted power of the GPS signal,
-PL is the path loss due to free space attenuation,
-X is the shadowing effect caused by obstacles.
 
-The path loss (PL) can be calculated using the Friis transmission equation:
+<br>
 
-PL = 20log10(d) + 20log10(f) - 147.55
+where: <br>
+P_r is the received power of the GPS signal, <br>
+P_t is the transmitted power of the GPS signal, <br>
+PL is the path loss due to free space attenuation, <br>
+X is the shadowing effect caused by obstacles. <br>
 
-where:
-d is the distance between the GPS module and the satellite,
-f is the frequency of the GPS signal.
+The path loss (PL) can be calculated using the Friis transmission equation: <br>
 
-By taking into account the path loss due to distance and the shadowing effect caused by obstacles, we can estimate the received power of the GPS signal and calculate the SNR. If the SNR falls below a certain threshold, it indicates that the GPS signal quality is degraded, leading to potential inaccuracies or intermittent readings.
+PL = 20log10(d) + 20log10(f) - 147.55 
+<br>
+where: <br>
+d is the distance between the GPS module and the satellite, <br>
+f is the frequency of the GPS signal. <br>
+
+By taking into account the path loss due to distance and the shadowing effect caused by obstacles, we can estimate the received power of the GPS signal and calculate the SNR. If the SNR falls below a certain threshold, it indicates that the GPS signal quality is degraded, leading to potential inaccuracies or intermittent readings. <br>
 
 ## Analysis (2): 
 
