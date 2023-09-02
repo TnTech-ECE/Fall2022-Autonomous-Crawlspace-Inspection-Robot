@@ -33,6 +33,31 @@ Third constraint that we need to considered is environmental constraints. Enviro
 ## Electrical Schematics
 
 # Analysis 
+## Analysis (1): 
+To analyze the impact of limited sky visibility on GPS signal acquisition and accuracy, we can consider the concept of signal-to-noise ratio (SNR). SNR is a crucial parameter that affects the quality of the received GPS signals. A higher SNR indicates a stronger and more reliable signal, while a lower SNR can result in signal degradation and potential inaccuracies. In an environment with limited sky visibility, the presence of obstacles  can obstruct the line of sight between the GPS module and the satellites. This obstruction can lead to weaker GPS signals and reduced SNR. the Log-normal Shadowing Model, which takes into account the distance between the GPS module and the obstacles.
+
+The Log-normal Shadowing: P_r = P_t - PL - X
+where:
+P_r is the received power of the GPS signal,
+P_t is the transmitted power of the GPS signal,
+PL is the path loss due to free space attenuation,
+X is the shadowing effect caused by obstacles.
+
+The path loss (PL) can be calculated using the Friis transmission equation:
+
+PL = 20log10(d) + 20log10(f) - 147.55
+
+where:
+d is the distance between the GPS module and the satellite,
+f is the frequency of the GPS signal.
+
+By taking into account the path loss due to distance and the shadowing effect caused by obstacles, we can estimate the received power of the GPS signal and calculate the SNR. If the SNR falls below a certain threshold, it indicates that the GPS signal quality is degraded, leading to potential inaccuracies or intermittent readings.
+
+## Analysis (2): 
+
+
+## Analysis (3): 
+
 
 # BOM
 | Name of Items |  Description        | Used in which subsystem(s) | Part Number     | Manufacturer   | Quantity | Price     | Total |
@@ -42,3 +67,5 @@ Third constraint that we need to considered is environmental constraints. Enviro
 |               |                     |                            |                 |Total Components|    2     |Total Cost |64.89$ |
 
 # References
+
+https://www.techtarget.com/searchnetworking/definition/signal-to-noise-ratio
