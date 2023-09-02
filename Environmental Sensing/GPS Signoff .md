@@ -36,6 +36,8 @@ Third constraint that we need to considered is environmental constraints. Enviro
 ## Analysis (1): 
 To analyze the impact of limited sky visibility on GPS signal acquisition and accuracy, we can consider the concept of signal-to-noise ratio (SNR). SNR is a crucial parameter that affects the quality of the received GPS signals. A higher SNR indicates a stronger and more reliable signal, while a lower SNR can result in signal degradation and potential inaccuracies. In an environment with limited sky visibility, the presence of obstacles  can obstruct the line of sight between the GPS module and the satellites. This obstruction can lead to weaker GPS signals and reduced SNR. the Log-normal Shadowing Model, which takes into account the distance between the GPS module and the obstacles.
 
+/n
+
 The Log-normal Shadowing: P_r = P_t - PL - X
 where:
 P_r is the received power of the GPS signal,
