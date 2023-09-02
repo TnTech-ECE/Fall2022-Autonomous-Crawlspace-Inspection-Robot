@@ -31,8 +31,6 @@ Ensure that the GPS subsystem components, including the M10Q-5883 GNSS GPS & Com
 
 # Analysis 
 
-# Software Consideration - Possible/Probable Software Solutions
-
 # BOM
 | Name of Items |  Description        | Used in which subsystem(s) | Part Number     | Manufacturer   | Quantity | Price     | Total |
 | ---           |     ---             |          ---               |      ---        |     ---        |    ---   |  ---      |  ---  |
