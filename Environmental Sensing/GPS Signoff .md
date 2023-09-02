@@ -34,8 +34,9 @@ Ensure that the GPS subsystem components, including the M10Q-5883 GNSS GPS & Com
 # Software Consideration - Possible/Probable Software Solutions
 
 # BOM
-| Name of Items |  Description    | Used in which subsystem(s) | Part Number | Manufacturer | Quantity | Price | Total |
-| ---           |     ---         |          ---               |      ---    |     ---      |    ---   |  ---  |  ---  |
-| GPS           | M10Q-5883 GNSS GPS & Compass             |                            |             |              |          |       |       |
-|               |                 |                            |             |              |          |       |       |
-|               |                 |                            |             |              |          |       |       |
+| Name of Items |  Description               | Used in which subsystem(s) | Part Number     | Manufacturer | Quantity | Price | Total |
+| ---           |     ---                    |          ---               |      ---        |     ---      |    ---   |  ---  |  ---  |
+| GPS           | fast acquisition           |  GPS subsystem             | M10Q-5883 GNSS  |              |          |       |       |
+                  and exceptional sensitivity  
+|               |                            |  GPS subsystem             |                 |              |          |       |       |
+|               |                            |                            |                 |              |          |       |       |
