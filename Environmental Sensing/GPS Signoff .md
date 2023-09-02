@@ -15,15 +15,18 @@ The GPS subsystem helps the robot know exactly where it is at all times. It uses
 - The GPS subsystem collaborates with other sensors, sharing its location data to enhance the robot's ability to gather accurate environmental data by combining information from multiple sources.
 
 # Constraints:
+First constraint that we need to considered is the GPS Signal Acquisition. The robot operates in an environment with limited sky visibility, it may struggle to acquire a strong GPS signal, leading to inaccurate or intermittent readings.
 
-Ensure that the GPS subsystem components, including the M10Q-5883 GNSS GPS & Compass module, can work with the robot's power system and meet the required voltage levels. The GPS subsystem should provide accurate and precise location data to support navigation and data collection. Consider constraints related to the specified accuracy and precision of the GPS module. Take into account operating temperature, humidity, and vibration limits to ensure the GPS subsystem functions reliably in different environmental conditions. Ensure the GPS subsystem can seamlessly integrate with the chosen ROS, considering constraints such as data exchange formats, communication protocols, and synchronization with other robot systems. Enable effective integration and fusion of location data from the GPS subsystem with inputs from other sensors like cameras or lidar systems. Address constraints related to data synchronization, accuracy alignment, and calibration for accurate and comprehensive environmental data collection.
+Second constraint that we need to considered is accuracy of GPS readings. The accuracy of GPS readings can be quantified using metrics such as horizontal accuracy, vertical accuracy, and time accuracy. 
 
-## List of constraints:
-- Signal Accuracy and Precision
-- Environmental Compatibility
-- integration with ROS
-- Sensor Fusion and Data Integration
-- accurate enough and getting the signal 
+Third constraint that we need to considered is environmental constraints. Environmental factors, such as signal blockage or degradation, can be modeled using signal propagation models. These models consider factors such as distance, obstacles, and signal attenuation to predict the quality of the GPS signal in a given environment.
+
+| No.|  Specifications and Constraints                                                                                             | 
+| ---|---                                                                                                                          |        
+| 1  |Shall consider the constraint of limited sky visibility in the robot's environment, which may impede GPS signal acquisition  | 
+| 2  |Shall acknowledge that the accuracy of GPS signals depends on the number of satellites in view.                              |
+| 3  |Shall account for environmental constraints, including signal blockage or degradation                                        | 
+
 
 # Buildable Schematics
 ## CAD models
@@ -37,3 +40,5 @@ Ensure that the GPS subsystem components, including the M10Q-5883 GNSS GPS & Com
 | GPS           |GPS & Compass Module |  GPS subsystem             | M10Q-5883 GNSS  | rotorriot      |    1     |39.99$     |39.99$ |
 | Arduino Nano  |ATmega328            |  GPS subsystem             | A000005         | Arduino        |    1     |24.90$     |24.90$ |
 |               |                     |                            |                 |Total Components|    2     |Total Cost |64.89$ |
+
+# References
