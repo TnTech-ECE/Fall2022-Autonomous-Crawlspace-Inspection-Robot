@@ -69,9 +69,9 @@ Where the $d$ is Distance between the receiver and the satellites = propagation 
 
 
 <br>
-The GPS signal operates at a frequency of $1575.42 MHz (L1 frequency)$. 
+The GPS signal operates at a frequency of $1575.42$ $MHz$ $(L1 frequency)$ 
 <br>
-$λ = 299,792,458 m/s / 1575.42 MHz$
+$λ$ $= 299,792,458 m/s/1575.42 MHz$
 <br>
 
 $PL = 20log10(d) + 20log10(f) - 147.55$
