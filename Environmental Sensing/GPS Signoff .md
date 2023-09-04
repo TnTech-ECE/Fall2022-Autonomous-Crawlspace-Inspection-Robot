@@ -31,6 +31,7 @@ Third constraint that we need to considered is environmental constraints. Enviro
 ## Analysis (1): 
 In situations where there are obstacles obstructing the line of sight between the GPS module and the satellites, the limited sky visibility can result in weaker GPS signals and a decrease in signal-to-noise ratio (SNR). To assess the effect of limited sky visibility on GPS signal quality, one can utilize the Log-normal Shadowing Model. This model considers the distance between the GPS module and the obstacles, allowing for the quantification of signal attenuation caused by the obstacles.
 <br>
+<br>
 The Log-normal Shadowing Model: P_r = P_t - PL – X
 <br>
 P_r is a received signal power, which represents the strength of the signal received by the M10Q-5883 module. The GPS receiver receives GPS signals at 1575.42 MHz (L1 frequency) at a power level of -125 dBm (about 0.1 fWatt).
