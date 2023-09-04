@@ -69,7 +69,7 @@ Where the $d$ is Distance between the receiver and the satellites = propagation 
 
 <br>
 
-f is the frequency of the GPS signal.
+$f$ is the frequency of the GPS signal.
 <br>
 the frequency of the transmitted signal is $f = c/λ$
 <br>
