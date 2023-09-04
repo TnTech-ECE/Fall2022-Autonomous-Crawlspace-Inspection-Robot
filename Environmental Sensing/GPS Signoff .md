@@ -35,9 +35,9 @@ In situations where there are obstacles obstructing the line of sight between th
 The Log-normal Shadowing Model: $P_r = P_t - PL – X$
 <br>
 <br>
-P_r is a received signal power, which represents the strength of the signal received by the M10Q-5883 module. The GPS receiver receives GPS signals at 1575.42 MHz (L1 frequency) at a power level of -125 dBm (about 0.1 fWatt).
+$P_r$ is a received signal power, which represents the strength of the signal received by the M10Q-5883 module. The GPS receiver receives GPS signals at $1575.42 MHz$ $(L1 frequency)$ at a power level of $-125 dBm$ $(about 0.1 fWatt)$.
 <br>
-P_t is transmitted signal power, which represents the power of the signal transmitted by the satellites. 
+$P_t$ is transmitted signal power, which represents the power of the signal transmitted by the satellites. 
 <br>
 For GPS, total L-band transmit power levels of 50-240 W were obtained, 
 <br>
