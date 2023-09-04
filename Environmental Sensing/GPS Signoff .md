@@ -27,11 +27,6 @@ Third constraint that we need to considered is environmental constraints. Enviro
 | 2  |Shall acknowledge that the accuracy of GPS signals depends on the number of satellites in view.                              |
 | 3  |Shall account for environmental constraints, including signal blockage or degradation                                        | 
 
-
-# Buildable Schematics
-## CAD models
-## Electrical Schematics
-
 # Analysis 
 ## Analysis (1): 
 In situations where there are obstacles obstructing the line of sight between the GPS module and the satellites, the limited sky visibility can result in weaker GPS signals and a decrease in signal-to-noise ratio (SNR). To assess the effect of limited sky visibility on GPS signal quality, one can utilize the Log-normal Shadowing Model. This model considers the distance between the GPS module and the obstacles, allowing for the quantification of signal attenuation caused by the obstacles.
@@ -151,6 +146,10 @@ Higher SNR values indicate a better quality of service and higher resistance to 
 
 ## Analysis (3): 
 
+
+# Buildable Schematics
+## CAD models
+## Electrical Schematics
 
 # BOM
 | Name of Items |  Description        | Used in which subsystem(s) | Part Number     | Manufacturer   | Quantity | Price     | Total |
