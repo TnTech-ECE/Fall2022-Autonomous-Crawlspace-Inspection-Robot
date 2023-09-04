@@ -67,11 +67,6 @@ Where the $d$ is Distance between the receiver and the satellites = propagation 
 "A receiver uses signals from satellites to figure out how long it takes for radio waves to travel from the satellites to the receiver's antenna. The signals sent by the satellites include time information, so the difference between that time and the receiving time is called the propagation time. By multiplying this propagation time by the speed of radio waves (which is the same as the speed of light, approximately 299,792,458 meters per second), we can calculate the distance between the satellites and the receiver."
  ![image](https://github.com/JoshuaEgwuatu/Fall-2023-Autonomous-Crawlspace-Inspection-Robot/assets/112426690/ecdfc573-d447-4d28-920d-6a2cef137692)
 
-
-<br>
-The GPS signal operates at a frequency of $1575.42$ $MHz$ $(L1 frequency)$ 
-<br>
-$λ$ $= 299,792,458 m/s/1575.42 MHz$
 <br>
 
 $PL = 20log10(d) + 20log10(f) - 147.55$
