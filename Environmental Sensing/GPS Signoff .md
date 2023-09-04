@@ -49,12 +49,10 @@ $95-265 W$ for Galileo,
 $130-185 W$ for BeiDou-2. 
 <br>
 <br>
-The path loss $(PL)$ can be calculated using the Friis transmission equation:
+The path loss $(PL)$ can be determined using the Friis transmission equation:
 $PL = 20log10(d) + 20log10(f) - 147.55$
 <br>
-Where the $d$ is the distance between the GPS module and the satellite
-<br>
-$Distance between the receiver and the satellites = propagation time x radio wave speed$
+Where the $d$ is $Distance$ $between$ $the$ $receiver$ $and$ $the$ 4satellites$ $=$ $propagation$ $time$ $x$ $radio wave speed$
 <br>
 Convert the received signal power from $dBm to Watts: Ptx = 10^((-125 - 30) / 10) = 0.1 fWatt$
 <br>
