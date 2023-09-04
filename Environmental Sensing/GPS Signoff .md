@@ -119,19 +119,17 @@ $PL ≈ 93.648 + 63.94 - 147.55$
 The path loss value of 63.038 indicates that the signal strength decreases as the distance between the transmitter and receiver increases. Higher path loss values indicate weaker signal strength. 
 
 <br>
-<br>
 the signal-to-noise ratio (SNR):
 <br>
+The received signal power: $-125$ $dBm$, including additional losses.
 <br>
-The received signal power is given as $-125 dBm$, including additional losses.
+The noise power bandwidth $(2.046 MHz)$ : $-110$ $dBm$
 <br>
-The noise power in the system $bandwidth (2.046 MHz) is given as -110 dBm$.
+The modulation scheme is $43$ $dB$
 <br>
-The modulation scheme is direct spread-spectrum, which provides a processing gain of $43 dB$.
+the received power: is $-135$ $dBm$
 <br>
-the received power required is $-135 dBm$.
-<br>
-the received power required is $-147 dBm$.
+the received power: $-147$ $dBm$.
 <br>
 $SNR = Pr / N0$ (Pr is the received signal power and N0 is the noise power).
 <br>
