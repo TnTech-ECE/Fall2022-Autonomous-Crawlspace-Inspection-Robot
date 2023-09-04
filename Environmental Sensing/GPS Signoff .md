@@ -37,35 +37,41 @@ The Log-normal Shadowing Model: $P_r = P_t - PL – X$
 <br>
 $P_r$ is a received signal power, which represents the strength of the signal received by the M10Q-5883 module. The GPS receiver receives GPS signals at $1575.42 MHz$ $(L1 frequency)$ at a power level of $-125 dBm$ $(about 0.1 fWatt)$.
 <br>
+<br>
 $P_t$ is transmitted signal power, which represents the power of the signal transmitted by the satellites. 
 <br>
-For GPS, total L-band transmit power levels of 50-240 W were obtained, 
+For GPS, total L-band transmit power levels of $50-240 W$, 
 <br>
-20-135 W for GLONASS
+$20-135 W$ for GLONASS
 <br>
-95-265 W for Galileo,
+$95-265 W$ for Galileo,
 <br>
-130-185 W for BeiDou-2. 
+$130-185 W$ for BeiDou-2. 
 <br>
-The path loss (PL) can be calculated using the Friis transmission equation:
-PL = 20log10(d) + 20log10(f) - 147.55
 <br>
-Where the d is the distance between the GPS module and the satellite
+The path loss $(PL)$ can be calculated using the Friis transmission equation:
+$PL = 20log10(d) + 20log10(f) - 147.55$
 <br>
-Distance between the receiver and the satellites = propagation time x radio wave speed
-
-Convert the received signal power from dBm to Watts: Ptx = 10^((-125 - 30) / 10) = 0.1 fWatt 
-Assume typical values for the antenna gains, considering an omnidirectional antenna: Gtx = Grx = 0 dBi
-Calculate the wavelength (λ) using the frequency of the GPS signal: λ = c / f = 299,792,458 m/s / (1575.42 MHz) = 0.190293 m
-Substitute the values into the Friis transmission equation to find the distance (d):
-d = λ / (4π) * 10^((Ptx - Prx + Gtx + Grx) / 20)
+Where the $d$ is the distance between the GPS module and the satellite
+<br>
+$Distance between the receiver and the satellites = propagation time x radio wave speed$
+<br>
+Convert the received signal power from $dBm to Watts: Ptx = 10^((-125 - 30) / 10) = 0.1 fWatt$
+<br>
+Assume typical values for the antenna gains, considering an omnidirectional antenna: $Gtx = Grx = 0 dBi$
+<br>
+Calculate the $wavelength (λ)$ using the frequency of the GPS signal: $λ = c / f = 299,792,458 m/s / (1575.42 MHz) = 0.190293 m$
+<br>
+Substitute the values into the Friis transmission equation to find the $distance (d)$ :
+<br>
+$d = λ / (4π) * 10^((Ptx - Prx + Gtx + Grx) / 20)
    = 0.190293 m / (4π) * 10^((0.1 - (-125) + 0 + 0) / 20)
    = 0.190293 m / (4π) * 10^((125.1) / 20)
    = 0.190293 m / (4π) * 10^(6.255)
-   ≈ 0.190293 m / (4π) * 1,983,400.66
+   ≈ 0.190293 m / (4π) * 1,983,400.66$
 <br>
 The approximate distance between the transmitter (satellite) and the receiver (module) is approximately:
-d ≈ 0.190293 m / (4π) * 1,983,400.66
+$d ≈ 0.190293 m / (4π) * 1,983,400.66$
 <br>
 
 "A receiver uses signals from satellites to figure out how long it takes for radio waves to travel from the satellites to the receiver's antenna. The signals sent by the satellites include time information, so the difference between that time and the receiving time is called the propagation time. By multiplying this propagation time by the speed of radio waves (which is the same as the speed of light, approximately 299,792,458 meters per second), we can calculate the distance between the satellites and the receiver."
@@ -74,70 +80,72 @@ d ≈ 0.190293 m / (4π) * 1,983,400.66
 
 f is the frequency of the GPS signal.
 <br>
-the frequency of the transmitted signal is f = c/λ 
+the frequency of the transmitted signal is $f = c/λ$
 <br>
-the frequency of the GPS signal is the GPS signal operates at a frequency of 1575.42 MHz (L1 frequency). The wavelength of the GPS signal is λ = c / f, where c is the speed of light and f is the frequency of the signal. For the GPS signal, the wavelength is approximately λ = 299,792,458 m/s / 1575.42 MHz
+the frequency of the GPS signal is the GPS signal operates at a frequency of $1575.42 MHz (L1 frequency)$. The wavelength of the GPS signal is $λ = c / f$
 <br>
-
-PL = 20log10(d) + 20log10(f) - 147.55
-d ≈ 0.190293 m / (4π) * 1,983,400.66
-f = 1575.42 MHz
+$λ = 299,792,458 m/s / 1575.42 MHz$
 <br>
 
-PL = 20log10(0.190293 m / (4π) * 1,983,400.66) + 20log10(1575.42 MHz) - 147.55
+$PL = 20log10(d) + 20log10(f) - 147.55$
+$d ≈ 0.190293 m / (4π) * 1,983,400.66$
+$f = 1575.42 MHz$
 <br>
 
+$PL = 20log10(0.190293 m / (4π) * 1,983,400.66) + 20log10(1575.42 MHz) - 147.55$
+<br>
+<br>
 Calculatiion:
 <br>
 
-20log10(0.190293 m / (4π) * 1,983,400.66)
+$20log10(0.190293 m / (4π) * 1,983,400.66)
    ≈ 20log10(0.190293 m / (4π) * 1,983,400.66)
    ≈ 20log10(0.190293 m / 7.85398) * 1,983,400.66)
    ≈ 20log10(0.0242102 m * 1,983,400.66)
    ≈ 20log10(48,152.98 m)
    ≈ 20 * log10(48,152.98)
    ≈ 20 * 4.682
-   ≈ 93.648
+   ≈ 93.648$
 <br>
 
-20log10(1575.42 MHz)
+$20log10(1575.42 MHz)
    ≈ 20log10(1575.42 MHz)
    ≈ 20 * log10(1575.42)
    ≈ 20 * 3.197
-   ≈ 63.94
+   ≈ 63.94$
 <br>
 
 
-PL ≈ 93.648 + 63.94 - 147.55
+$PL ≈ 93.648 + 63.94 - 147.55
    ≈ 210.588 - 147.55
-   ≈ 63.038
+   ≈ 63.038$
 
 <br>
 
 The path loss value of 63.038 indicates that the signal strength decreases as the distance between the transmitter (satellite) and receiver (module) increases. Higher path loss values indicate weaker signal strength. 
 
 <br>
-
+<br>
 the signal-to-noise ratio (SNR):
 <br>
-
-The received signal power is given as -125 dBm, including additional losses.
 <br>
-The noise power in the system bandwidth (2.046 MHz) is given as -110 dBm.
+The received signal power is given as $-125 dBm$, including additional losses.
 <br>
-The modulation scheme is direct spread-spectrum, which provides a processing gain of 43 dB.
+The noise power in the system $bandwidth (2.046 MHz) is given as -110 dBm$.
 <br>
-the received power required is -135 dBm.
+The modulation scheme is direct spread-spectrum, which provides a processing gain of $43 dB$.
 <br>
-the received power required is -147 dBm.
+the received power required is $-135 dBm$.
 <br>
-SNR = Pr / N0 (Pr is the received signal power and N0 is the noise power).
+the received power required is $-147 dBm$.
 <br>
-SNR at Received Signal Power: SNR = -125 dBm / -110 dBm = 15 dB
+$SNR = Pr / N0$ (Pr is the received signal power and N0 is the noise power).
 <br>
-SNR during Acquisition: SNR = -135 dBm / -110 dBm = 25 dB
+SNR at Received Signal Power: $SNR = -125 dBm / -110 dBm = 15 dB$
 <br>
-SNR during Tracking: SNR = -147 dBm / -110 dBm = 37 dB
+SNR during Acquisition: $SNR = -135 dBm / -110 dBm = 25 dB$
+<br>
+SNR during Tracking: $SNR = -147 dBm / -110 dBm = 37 dB$
 
 <br>
 Higher SNR values indicate a better quality of service and higher resistance to noise and interference.
