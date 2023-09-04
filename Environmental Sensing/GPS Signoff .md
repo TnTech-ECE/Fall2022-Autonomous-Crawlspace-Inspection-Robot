@@ -55,9 +55,9 @@ $PL = 20log10(d) + 20log10(f) - 147.55$
 Where the $d$ is Distance between the receiver and the satellites = propagation time x radio wave speed
 <br>
 - Convert the received signal power from $dBm$ to $Watts$: $Ptx = 10^((-125 - 30) / 10) = 0.1$ $fWatt$
-- Assume typical values for the antenna gains, considering an omnidirectional antenna: $Gtx = Grx = 0$ $dBi$
-- Calculate the $wavelength (λ)$ using the frequency of the GPS signal: $λ = c / f = 299,792,458 m/s / (1575.42 MHz) = 0.190293 m$
-- Substitute the values into the Friis transmission equation to find the $distance (d)$ :
+- the antenna gains (considering an omnidirectional antenna): $Gtx = Grx = 0$ $dBi$
+- $wavelength (λ)$: $λ = c / f = 299,792,458 m/s / (1575.42 MHz) = 0.190293 m$
+- Friis transmission equation to find the $distance (d)$ :
 <br>
 $d = λ / (4π) * 10^((Ptx - Prx + Gtx + Grx) / 20)
    = 0.190293 m / (4π) * 10^((0.1 - (-125) + 0 + 0) / 20)
