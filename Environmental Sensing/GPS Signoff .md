@@ -105,13 +105,13 @@ $20log10(0.190293 m / (4π) * 1,983,400.66)$
 
 $20log10(1575.42 MHz)$
    <br>
-   ≈ 20log10(1575.42 MHz)
+   $≈ 20log10(1575.42 MHz)$
    <br>
-   ≈ 20 * log10(1575.42)
+   $≈ 20 * log10(1575.42)$
    <br>
-   ≈ 20 * 3.197
+   $≈ 20 * 3.197$
     <br>
-   ≈ 63.94$
+   $≈ 63.94$
 <br>
 
 
@@ -121,7 +121,6 @@ $PL ≈ 93.648 + 63.94 - 147.55$
    $≈ 63.038$
 
 <br>
-
 The path loss value of 63.038 indicates that the signal strength decreases as the distance between the transmitter and receiver increases. Higher path loss values indicate weaker signal strength. 
 
 <br>
