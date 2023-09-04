@@ -63,10 +63,9 @@ Where the $d$ is Distance between the receiver and the satellites = propagation 
    $= 0.190293 m / (4π) * 10^(6.255)$
    $≈ 0.190293 m / (4π) * 1,983,400.66$
 <br>
-The distance between the transmitter and the receiver $≈ 0.190293 m / (4π) * 1,983,400.66$
-<br>
 
 "A receiver uses signals from satellites to figure out how long it takes for radio waves to travel from the satellites to the receiver's antenna. The signals sent by the satellites include time information, so the difference between that time and the receiving time is called the propagation time. By multiplying this propagation time by the speed of radio waves (which is the same as the speed of light, approximately 299,792,458 meters per second), we can calculate the distance between the satellites and the receiver."
+ ![image](https://github.com/JoshuaEgwuatu/Fall-2023-Autonomous-Crawlspace-Inspection-Robot/assets/112426690/ecdfc573-d447-4d28-920d-6a2cef137692)
 
 <br>
 
