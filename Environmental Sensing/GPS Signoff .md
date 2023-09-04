@@ -114,14 +114,13 @@ $PL ≈ 93.648 + 63.94 - 147.55$
 <br>
    $≈ 210.588 - 147.55$
    $≈ 63.038$
-
 <br>
 The path loss value of 63.038 indicates that the signal strength decreases as the distance between the transmitter and receiver increases. Higher path loss values indicate weaker signal strength. 
 
 <br>
 the signal-to-noise ratio (SNR):
 <br>
-The received signal power: $-125$ $dBm$, including additional losses.
+The received signal power: $-125 dBm$
 <br>
 The noise power bandwidth $(2.046 MHz)$ : $-110$ $dBm$
 <br>
