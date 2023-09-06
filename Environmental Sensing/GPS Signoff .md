@@ -122,11 +122,11 @@ the signal-to-noise ratio (SNR):
 <br>
 The received signal power: -125 dBm
 <br>
-The noise power bandwidth (2.046 MHz)$ : -110 dBm
+The noise power bandwidth (2.046 MHz): -110 dBm
 <br>
-The modulation scheme is 43 dB
+The modulation scheme: 43 dB
 <br>
-the received power: is -135 dBm
+the received power: -135 dBm
 <br>
 the received power: -147 dBm
 <br>
