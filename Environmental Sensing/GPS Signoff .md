@@ -122,23 +122,21 @@ the signal-to-noise ratio (SNR):
 <br>
 The received signal power: -125 dBm
 <br>
-The noise power bandwidth $(2.046 MHz)$ : -110 dBm
+The noise power bandwidth (2.046 MHz)$ : -110 dBm
 <br>
-The modulation scheme is $43$ dB
+The modulation scheme is 43 dB
 <br>
-the received power: is $-135$ dBm
+the received power: is -135 dBm
 <br>
-the received power: $-147$ dBm
+the received power: -147 dBm
 <br>
-$SNR = Pr / N0$ 
+SNR = Pr / N0  (Note that Pr: received signal power and N0: noise power)
 <br>
-(Pr is the received signal power and N0 is the noise power).
+SNR at Received Signal Power: SNR = -125 dBm / -110 dBm = 15 dB
 <br>
-SNR at Received Signal Power: $SNR = -125 dBm / -110 dBm = 15 dB$
+SNR during Acquisition: SNR = -135 dBm / -110 dBm = 25 dB
 <br>
-SNR during Acquisition: $SNR = -135 dBm / -110 dBm = 25 dB$
-<br>
-SNR during Tracking: $SNR = -147 dBm / -110 dBm = 37 dB$
+SNR during Tracking: SNR = -147 dBm / -110 dBm = 37 dB
 
 <br>
 Higher SNR values indicate a better quality of service and higher resistance to noise and interference.
