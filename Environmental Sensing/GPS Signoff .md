@@ -120,17 +120,19 @@ The path loss value of 63.038 indicates that the signal strength decreases as th
 <br>
 the signal-to-noise ratio (SNR):
 <br>
-The received signal power: $-125 dBm$
+The received signal power: -125 dBm
 <br>
-The noise power bandwidth $(2.046 MHz)$ : $-110$ $dBm$
+The noise power bandwidth $(2.046 MHz)$ : -110 dBm
 <br>
-The modulation scheme is $43$ $dB$
+The modulation scheme is $43$ dB
 <br>
-the received power: is $-135$ $dBm$
+the received power: is $-135$ dBm
 <br>
-the received power: $-147$ $dBm$.
+the received power: $-147$ dBm
 <br>
-$SNR = Pr / N0$ (Pr is the received signal power and N0 is the noise power).
+$SNR = Pr / N0$ 
+<br>
+(Pr is the received signal power and N0 is the noise power).
 <br>
 SNR at Received Signal Power: $SNR = -125 dBm / -110 dBm = 15 dB$
 <br>
