@@ -175,4 +175,8 @@ https://www.nxp.com/docs/en/brochure/75016740.pdf
 
 https://cenv.wwu.edu/sal/gps-ephemeris-data
 
+https://rotorriot.com/products/m10q-5883-gnss-gps-compass-module
+
+https://oceanservice.noaa.gov/education/tutorial_geodesy/geo09_gps.html
+
 https://www.gnssplanning.com/#/settings
