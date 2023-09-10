@@ -1,3 +1,17 @@
 # Function of the subsystem:
+## Function:
+# Constraints:
+# Analysis 
+# Buildable Schematics
+## CAD models
+## Electrical Schematics
+
+# BOM
+| Name of Items |  Description        | Used in which subsystem(s) | Part Number     | Manufacturer   | Quantity | Price     | Total |
+| ---           |     ---             |          ---               |      ---        |     ---        |    ---   |  ---      |  ---  |
+| -             |-                    |  GPS subsystem             | M10Q-5883 GNSS  | rotorriot      |    1     |39.99$     |39.99$ |
+| Arduino Nano  |ATmega328            |  GPS subsystem             | A000005         | Arduino        |    1     |24.90$     |24.90$ |
+|               |                     |                            |                 |Total Components|    2     |Total Cost |64.89$ |
+
 
 
