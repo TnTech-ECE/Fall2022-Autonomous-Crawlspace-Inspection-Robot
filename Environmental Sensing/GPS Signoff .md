@@ -28,7 +28,7 @@ Third constraint that we need to considered is environmental constraints. Enviro
 | 3  |Shall account for environmental constraints, including signal blockage or degradation                                        | 
 
 # Analysis 
-## Analysis (1): 
+
 In situations where there are obstacles obstructing the line of sight between the GPS module and the satellites, the limited sky visibility can result in weaker GPS signals and a decrease in signal-to-noise ratio (SNR). To assess the effect of limited sky visibility on GPS signal quality, one can utilize the Log-normal Shadowing Model. This model considers the distance between the GPS module and the obstacles, allowing for the quantification of signal attenuation caused by the obstacles.
 <br>
 <br>
@@ -142,10 +142,10 @@ SNR during Tracking: SNR = -147 dBm / -110 dBm = 37 dB
 Higher SNR values indicate a better quality of service and higher resistance to noise and interference.
 <br>
 
-## Analysis (2): 
+We are using M10Q-5883 GNSS GPS & Compass Module and this module supports concurrent reception of four GNSS systems: GPS, GLONASS, Galileo, and BeiDou. It is designed to provide exceptional sensitivity and acquisition time for all L1 GNSS signals. The high number of visible satellites (30 for GPS, 24 for GLONASS, 25 for Galileo, and 46 for BeiDou) indicates good satellite availability, which can contribute to improved positioning accuracy. The u-blox Super-S technology enhances RF sensitivity and can improve the dynamic position accuracy in challenging scenarios such as non-line-of-sight environments. The module is equipped with a high-gain 15 x 15 mm² patch antenna, which offers a balance between performance and small size. This omnidirectional antenna radiation pattern provides flexibility in device installation. The GNSS module communicates with the robot's system via UART interface, and the magnetic compass used is the QMC5883L. The power consumption of the module is 13mA, and it operates within a temperature range of -20°C to 80°C. The GNSS module supports the UBX protocol at a default baud rate of 9600, and the NMEA protocol at a 1Hz update rate.
 
+![Image 9-10-23 at 3 33 PM](https://github.com/JoshuaEgwuatu/Fall-2023-Autonomous-Crawlspace-Inspection-Robot/assets/112426690/4090fdb3-1ddd-4458-8dd8-948a7d28b8fe)
 
-## Analysis (3): 
 
 
 # Buildable Schematics
