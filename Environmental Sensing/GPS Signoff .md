@@ -172,3 +172,7 @@ https://link.springer.com/chapter/10.1007/978-3-642-72011-6_3
 https://www.quora.com/How-is-the-distance-between-a-GPS-device-and-a-GPS-satellite-calculated
 
 https://www.nxp.com/docs/en/brochure/75016740.pdf
+
+https://cenv.wwu.edu/sal/gps-ephemeris-data
+
+https://www.gnssplanning.com/#/settings
