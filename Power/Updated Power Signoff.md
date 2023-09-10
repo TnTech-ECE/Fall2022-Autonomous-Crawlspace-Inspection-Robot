@@ -3,14 +3,14 @@ The funtion of this subsystem is to make mechaninical improvements to both the m
 
 # Constraints:
 
-- Physical limitations
-  ** The robot's structure and components may have limitations on how much power they can handle or accommodate
+1- Physical limitations
+   - The robot's structure and components may have limitations on how much power they can handle or accommodate
 
-- Energy source limitations
-  ** The availability and capacity of the energy source used to power the robot may impose constraints on the power output
+ 2- Energy source limitations
+   -  The availability and capacity of the energy source used to power the robot may impose constraints on the power output
 
-- Compatibility with existing systems
-  ** The improved power subsystem should be compatible with the robot's existing systems and components
+3-  Compatibility with existing systems
+   -  The improved power subsystem should be compatible with the robot's existing systems and components
 
 # Analysis 
 # Buildable Schematics
