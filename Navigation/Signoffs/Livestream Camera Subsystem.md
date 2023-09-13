@@ -45,6 +45,7 @@ The BetaFPV camera is a small and lightweight camera. It has a higher resolution
 # Buildable Schematics
 ## 3D Model
 
+![51vFJ99uRbL _AC_SL1500_](https://github.com/JoshuaEgwuatu/Fall-2023-Autonomous-Crawlspace-Inspection-Robot/assets/110966922/03166f07-04a7-4f2e-8387-a29d586f11c4)
 
 
 ## Electrical Schematic
